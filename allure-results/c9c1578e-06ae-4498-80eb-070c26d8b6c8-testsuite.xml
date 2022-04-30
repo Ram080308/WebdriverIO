@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650269170864' stop='1650269175421'>
+    <name>TestCase4_Login to Nop Commerece Admin portal Databse</name>
+    <title>TestCase4_Login to Nop Commerece Admin portal Databse</title>
+    <test-cases>
+        <test-case start='1650269170865' status='broken' stop='1650269175418'>
+            <name>4_Should allow user to login from database</name>
+            <title>4_Should allow user to login from database</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'Database_Operations')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'Database_Operations')
+                    at Context.&lt;anonymous> (E:\E2EWebdriverAutomation\test\Specs\backend_TestCase4_LoginToApplication_Database.js:13:40)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

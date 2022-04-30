@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650874072657' stop='1650874080695'>
+    <name>TestCase1_Login to Nop Commerece Admin portal</name>
+    <title>TestCase1_Login to Nop Commerece Admin portal</title>
+    <test-cases>
+        <test-case start='1650874072657' status='passed' stop='1650874080692'>
+            <name>1_Should allow user to login</name>
+            <title>1_Should allow user to login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

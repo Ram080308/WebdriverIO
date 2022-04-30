@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649235124749' stop='1649235125970'>
+    <name>Test Case : Login to Application</name>
+    <title>Test Case : Login to Application</title>
+    <test-cases>
+        <test-case start='1649235124751' status='broken' stop='1649235125968'>
+            <name>System should allow user to login to application</name>
+            <title>System should allow user to login to application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='safari-5.1.7'/>
+            </parameters>
+            <steps>
+                <step start='1649235124756' status='broken' stop='1649235125968'>
+                    <name>POST /session/:sessionId/window/current/maximize</name>
+                    <title>POST /session/:sessionId/window/current/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1649235125346' status='passed' stop='1649235125965'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='4bc958a9-a9e1-4425-a83a-7d7735d8f4fb-attachment.png' type='image/png' size='44808'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Response has empty body</message>
+                <stack-trace>Error: Response has empty body
+                    at getErrorFromResponseBody (E:\E2EWebdriverAutomation\node_modules\webdriver\build\utils.js:189:16)
+                    at NodeJSRequest._request (E:\E2EWebdriverAutomation\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (E:\E2EWebdriverAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (E:\E2EWebdriverAutomation\test\Specs\TestCase1_LoginToApplication.js:8:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='id_gender1']\"}\n  (Session info: chrome=100.0.4896.60)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00608BD3+2395091]\n\tOrdinal0 [0x0059ACA1+1944737]\n\tOrdinal0 [0x0048D008+839688]\n\tOrdinal0 [0x004B9BFD+1022973]\n\tOrdinal0 [0x004B9EBB+1023675]\n\tOrdinal0 [0x004E6A92+1206930]\n\tOrdinal0 [0x004D4C04+1133572]\n\tOrdinal0 [0x004E4D62+1199458]\n\tOrdinal0 [0x004D49D6+1133014]\n\tOrdinal0 [0x004AEF76+978806]\n\tOrdinal0 [0x004AFE86+982662]\n\tGetHandleVerifier [0x007BC912+1719138]\n\tGetHandleVerifier [0x0086B2CD+2434333]\n\tGetHandleVerifier [0x006A4001+569937]\n\tGetHandleVerifier [0x006A3066+565942]\n\tOrdinal0 [0x005A265B+1975899]\n\tOrdinal0 [0x005A72A8+1995432]\n\tOrdinal0 [0x005A7395+1995669]\n\tOrdinal0 [0x005B02F1+2032369]\n\tBaseThreadInitThunk [0x75B86359+25]\n\tRtlGetAppContainerNamedObjectPath [0x76EF7B74+228]\n\tRtlGetAppContainerNamedObjectPath [0x76EF7B44+180]\n"
+}
