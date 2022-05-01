@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651416847190' stop='1651416870404'>
+    <name>TestCase4_RegisterUser_MercuryTours_Database</name>
+    <title>TestCase4_RegisterUser_MercuryTours_Database</title>
+    <test-cases>
+        <test-case start='1651416847193' status='passed' stop='1651416870402'>
+            <name>Register the user Mercury Tours_Database values</name>
+            <title>Register the user Mercury Tours_Database values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
