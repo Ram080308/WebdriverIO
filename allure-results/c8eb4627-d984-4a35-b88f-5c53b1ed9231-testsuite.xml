@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651417493112' stop='1651417501543'>
+    <name>TestCase4_RegisterUser_MercuryTours_Database</name>
+    <title>TestCase4_RegisterUser_MercuryTours_Database</title>
+    <test-cases>
+        <test-case start='1651417493113' status='broken' stop='1651417501541'>
+            <name>Register the user Mercury Tours_Database values</name>
+            <title>Register the user Mercury Tours_Database values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (E:\E2EWebdriverAutomation\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (E:\E2EWebdriverAutomation\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (E:\E2EWebdriverAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (E:\E2EWebdriverAutomation\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at async Browser.wrapCommandFn (E:\E2EWebdriverAutomation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Registration_MercuryTours.registerUserMercuryTours (E:\E2EWebdriverAutomation\test\PageObjects_FrontStore\FrontEnd_Reg_Page_MercuryTours.js:16:9)
+                    at async Context.&lt;anonymous> (E:\E2EWebdriverAutomation\test\Specs\FrontEnd_TestCase4_MercuryTours_Register.js:18:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

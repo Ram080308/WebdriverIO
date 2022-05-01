@@ -1,12 +1,14 @@
 var mercury_reg = require ('./../PageObjects_FrontStore/FrontEnd_Reg_Page_MercuryTours')
 var data_base = require('./../../Utilities/Database_Connect')
 var json_data = require ('./../../TestData/DBQueryResult.json')
+const fs = require('fs');
 
 describe("TestCase4_RegisterUser_MercuryTours_Database", ()=>{
 
       it ("Register the user Mercury Tours_Database values", async ()=>{
          await browser.maximizeWindow()
          await browser.url("https://demo.guru99.com/test/newtours/register.php")
+         await browser.pause(3000)
 
         // await mercury_reg.registerUserMercuryTours('Ram','Chigari','CANADA','Guru','tester','tester')
          
@@ -19,7 +21,7 @@ describe("TestCase4_RegisterUser_MercuryTours_Database", ()=>{
          }
 
          
-         
+         fs.unlinkSync('./TestData/DBQueryResult.json', (err)=>{})
          
 
       })
